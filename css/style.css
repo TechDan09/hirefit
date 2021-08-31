@@ -48,6 +48,7 @@ li {
   font-weight: 500;
   line-height: 2.5em;
   color: #6f758c;
+  margin: 0;
 }
 
 li.nav-item {
@@ -58,6 +59,10 @@ a,
 a:hover {
   text-decoration: none;
   color: #000;
+}
+
+.py-6 {
+  padding: 2.93em 0;
 }
 
 .nav-logo {
@@ -106,7 +111,7 @@ a:hover {
 }
 
 .work-with-us {
-  height: 50em;
+  height: 40em;
   width: 100%;
   background-image: url(/assets/wave2.svg);
 }
@@ -118,6 +123,10 @@ a:hover {
   border: none;
   padding: 15px 70px;
   font-size: 1.17em;
+}
+
+.btn-primary:hover {
+  background-color: #fd8835;
 }
 
 .copyright {
@@ -181,6 +190,10 @@ a:hover {
     color: #6f758c;
   }
 
+  .py-6 {
+    padding: 1.71em;
+  }
+
   .btn-primary {
     padding: 14px 95px;
     font-size: 0.97em;
@@ -209,7 +222,9 @@ a:hover {
   }
 
   .nav-item {
-    margin: 1rem 0;
+    margin: auto;
+    width: 100%;
+    padding: 15px 0;
   }
 
   .hamburger {
