@@ -65,6 +65,10 @@ a:hover {
   padding: 2.93em 0;
 }
 
+.navbar {
+  width: 91.67%;
+}
+
 .nav-logo {
   font-size: 1.22em;
   font-weight: 700;
@@ -191,7 +195,7 @@ a:hover {
   }
 
   .py-6 {
-    padding: 1.71em;
+    padding: 1.71em 0;
   }
 
   .btn-primary {
@@ -236,7 +240,7 @@ a:hover {
     height: 24em;
   }
   .work-with-us {
-    height: 50em;
+    height: 44em;
   }
 
   .how-it-works-header {
